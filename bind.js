@@ -13,7 +13,7 @@ function info(phone , email){
 
 info.bind(person, '0688105542', 'shemetg@gmail.com')();
 
-1 Простой
+// 1 Простой
 function bind(fn, context , ...rest) {
     return fn.bind(context, ...rest)
 }
